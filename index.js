@@ -89,4 +89,4 @@ client.user.setPresence({ game: { name: `The world  🌎`, url: 'https://twitch.
 
 });
 
-client.login("NDUzNjAxNDU1Njk4NjA4MTM5.DgQqbw.Z1TlLqJ0YFowz-m60irmlK6vOoo");
+client.login("");
