@@ -88,5 +88,4 @@ LET'S GO!
 client.user.setPresence({ game: { name: `The world  🌎`, url: 'https://twitch.tv/xxwilsongamingxx', type: 2 } });
 
 });
-
-client.login("");
+client.login(process.env.TOKEN);
