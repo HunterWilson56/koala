@@ -28,6 +28,8 @@ const applyText = (canvas, text) => {
 client.on('guildMemberAdd', async member => {
   const channel = member.guild.channels.find(ch => ch.name === 'member-log');
   if (!channel) return;
+    const channel2 = member.guild.channels.find(ch => ch.name === 'welcome');
+  if (!channel2) return;
 
   const canvas = Canvas.createCanvas(700, 250);
   const ctx = canvas.getContext('2d');
@@ -60,6 +62,7 @@ client.on('guildMemberAdd', async member => {
   const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.png');
 
   channel.send(`Welcome to the server, ${member}!`, attachment);
+     channel2.send(`Welcome to the server, ${member}!`, attachment);
 });
 
 
