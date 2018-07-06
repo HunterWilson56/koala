@@ -11,6 +11,9 @@
   "dependencies": {
     "canvas": "^2.0.0-alpha.12",
     "discord.js": "^11.3.0",
-    "snekfetch": "^4.0.4"
-  }
+    "snekfetch": "^4.0.4",
+    "express": "*"
+  },
+  "scripts":"node index.js"
+}
 }
