@@ -67,7 +67,6 @@ client.on('guildMemberAdd', async member => {
 client.on('guildMemberDelete', async member => {
   const channel = member.guild.channels.find(ch => ch.name === 'member-log');
   if (!channel) return;
-   
 
   const canvas = Canvas.createCanvas(700, 250);
   const ctx = canvas.getContext('2d');
@@ -81,7 +80,7 @@ client.on('guildMemberDelete', async member => {
   // Slightly smaller text placed above the member's display name
   ctx.font = '28px sans-serif';
   ctx.fillStyle = '#ffffff';
-  ctx.fillText('Why did you have to leave?,', canvas.width / 2.5, canvas.height / 3.5);
+  ctx.fillText('Why did you leave?,', canvas.width / 2.5, canvas.height / 3.5);
 
   // Add an exclamation point here and below
   ctx.font = applyText(canvas, `${member.displayName}!`);
@@ -97,10 +96,15 @@ client.on('guildMemberDelete', async member => {
   const avatar = await Canvas.loadImage(buffer);
   ctx.drawImage(avatar, 25, 25, 200, 200);
 
-  const attachment = new Discord.Attachment(canvas.toBuffer(), 'leave-image.png');
+  const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.png');
 
-  channel.send(`${member}! Left the server`, attachment);
-     
+  channel.send(` ${member} Left the server!`, attachment);
+});
+
+client.on('message', async message => {
+  if (message.content === '!le') {
+      client.emit('guildMemberDelete', message.member || await message.guild.fetchMember(message.author));
+  }
 });
 
 
