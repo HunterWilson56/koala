@@ -64,7 +64,7 @@ client.on('guildMemberAdd', async member => {
      
 });
 
-client.on('guildMemberDelete', async member => {
+client.on('guildMemberRemove', async member => {
   const channel = member.guild.channels.find(ch => ch.name === 'member-log');
   if (!channel) return;
 
