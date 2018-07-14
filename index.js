@@ -103,7 +103,7 @@ client.on('guildMemberRemove', async member => {
 
 client.on('message', async message => {
   if (message.content === '!le') {
-      client.emit('guildMemberDelete', message.member || await message.guild.fetchMember(message.author));
+      client.emit('guildMemberRemove', message.member || await message.guild.fetchMember(message.author));
   }
 });
 
