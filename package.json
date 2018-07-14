@@ -1,19 +1,14 @@
 {
   "name": "koala-discord",
-  "version": "1.0.0",
-  "description": "",
+  "description": "Test",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "canvas": "^2.0.0-alpha.12",
+     "canvas": "^2.0.0-alpha.12",
     "discord.js": "^11.3.0",
     "snekfetch": "^4.0.4"
-  },
-  "scripts":{
-    "start":"node index.js"
   }
 }
