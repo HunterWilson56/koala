@@ -129,7 +129,8 @@ LET'S GO!
 ------------------------------------------------------
 -----------------Bot's commands logs------------------`
   console.log(clientonmessage);
-client.users.get("338192747754160138").send(clientonmessage)
+let chan = client.channel.find("453613794892054548");
+    chane.send(clientonmessage)
 
 
 });
