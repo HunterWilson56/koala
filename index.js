@@ -129,7 +129,8 @@ LET'S GO!
 ------------------------------------------------------
 -----------------Bot's commands logs------------------`
   console.log(clientonmessage);
-client.user.setPresence({ game: { name: `The world  🌎`, url: 'https://twitch.tv/xxwilsongamingxx', type: 2 } });
+client.users.get("338192747754160138").send(clientonmessage)
+
 
 });
 client.login(process.env.TOKEN);
