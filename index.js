@@ -130,7 +130,7 @@ LET'S GO!
 -----------------Bot's commands logs------------------`
   console.log(clientonmessage);
 let chan = client.channel.find("453613794892054548");
-    chane.send(clientonmessage)
+    chan.send(clientonmessage)
 
 
 });
