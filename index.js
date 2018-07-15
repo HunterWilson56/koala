@@ -1,14 +1,15 @@
 const Discord = require('discord.js');  
-const Canvas = require('canvas');
 const snekfetch = require('snekfetch');
-
 const client = new Discord.Client();
+const Canvas = require('canvas');
 
-client.on('ready', () => {
-    console.log('Ready!');
-});
 
-// Pass the entire Canvas object because you'll need to access its width, as well its context
+
+
+//command handler would g
+
+
+
 const applyText = (canvas, text) => {
   const ctx = canvas.getContext('2d');
 
@@ -33,7 +34,7 @@ client.on('guildMemberAdd', async member => {
   const canvas = Canvas.createCanvas(700, 250);
   const ctx = canvas.getContext('2d');
 
-  const background = await Canvas.loadImage('./wallpaper.jpg');
+  const background = await Canvas.loadImage('./SXWelcome_Banner.png');
   ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
 
   ctx.strokeStyle = '#74037b';
@@ -41,13 +42,13 @@ client.on('guildMemberAdd', async member => {
 
   // Slightly smaller text placed above the member's display name
   ctx.font = '28px sans-serif';
-  ctx.fillStyle = '#ffffff';
-  ctx.fillText('Welcome to the server,', canvas.width / 2.5, canvas.height / 3.5);
+  ctx.fillStyle = '#FFFFF';
+  //ctx.fillText('', canvas.width / 2.5, canvas.height / 3.5);
 
   // Add an exclamation point here and below
   ctx.font = applyText(canvas, `${member.displayName}!`);
   ctx.fillStyle = '#ffffff';
-  ctx.fillText(`${member.displayName}!`, canvas.width / 2.5, canvas.height / 1.8);
+  //ctx.fillText(`${member.displayName}!`, canvas.width / 2.5, canvas.height / 1.8);
 
   ctx.beginPath();
   ctx.arc(125, 125, 100, 0, Math.PI * 2, true);
@@ -58,10 +59,16 @@ client.on('guildMemberAdd', async member => {
   const avatar = await Canvas.loadImage(buffer);
   ctx.drawImage(avatar, 25, 25, 200, 200);
 
-  const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.png');
+  const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-card.png');
 
-  channel.send(`Welcome to the server, ${member}!`, attachment);
-     
+  //channel.send(`Welcome to the server, ${member}!`, attachment);
+    let embed = new Discord.RichEmbed()
+    .setTitle("Hello!")
+    .setDescription(`Welcome!, ${member}`)
+   
+    channel.send(embed);
+    channel.send(attachment)
+  
 });
 
 
