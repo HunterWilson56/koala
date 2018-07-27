@@ -24,12 +24,15 @@ The source code is **PRIVATE**, this repository is meant for documentation, issu
 - **[Logan](https://github.com/HunterWilson56/Logan-Bot)** (Old Bot)
 
 ## Changelog 
+## Version 1.0.0
+- Added Moderation
 
-## Version 9.5.3
+## Version 0.9.5.3
 - Added Canvas commands like rip,wanted ,ect
-## Version 9.5.2
+
+## Version 0.9.5.2
 - Add customizible channel for member-log
 
-## Version 9.5.1
+## Version 0.9.5.1
 - Fixed Member-Logging
 - Added addmod command
