@@ -15,7 +15,7 @@ The source code is **PRIVATE**, this repository is meant for documentation, issu
 
 - **[Patreon](https://www.patreon.com/koaladiscord)**
 - **[Official Server](https://discord.gg/hnP9qBW)**
-- **[Invite Logan](https://koala.glitch.me/invite)**
+- **[Invite Koala](https://koala.glitch.me/invite)**
 
 ### Related links
 
