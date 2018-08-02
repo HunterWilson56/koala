@@ -24,6 +24,11 @@ The source code is **PRIVATE**, this repository is meant for documentation, issu
 - **[Logan](https://github.com/HunterWilson56/Logan-Bot)** (Old Bot)
 
 ## Changelog 
+## Version 1.0.1
+-Added Modlog cmd
+-Added **New** Welcome Picture
+-Added MORE! Moderation cmds!
+
 ## Version 1.0.0
 - Added Moderation
 
