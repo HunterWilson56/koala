@@ -2,7 +2,7 @@
 
 [![Discord Bots](https://discordbots.org/api/widget/453601455698608139.svg)](https://discordbots.org/bot/453601455698608139)
 [![Bots For Discord](https://botsfordiscord.com/api/v1/bots/453601455698608139/embed?theme=dark)](https://botsfordiscord.com/bot/453601455698608139)
-[![My Bot](https://bots.ondiscord.xyz/bots/453601455698608139/embed)](https://bots.ondiscord.xyz/bots/453601455698608139)
+
 
 Koala  was made by Tea Cup & SxR#3550 And Koala's website [Here](https://koala.glitch.me/) was made by Sup3rFir3r#1633.
 Our hope in Koala is to have an customiziable bot that is cool & fun at the same time!
