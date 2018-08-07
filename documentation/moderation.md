@@ -5,7 +5,11 @@
 
 ## All The Commands
 
-- Wanna mute that peskey member thats spamming chat? Then do k!mute [@user] [reson for mute] [time]
+- Wanna mute that peskey member thats spamming chat? Then do ```k!mute [@user] [reson for mute] [time]```
+
+- We all wanna ban that one person, So here's how to do it ```k!ban [@user] [reason for ban]```
+
+- Got that person that got in trouble? Then kick em' ```k!kick [@user] [reason for kick]```
 
 
 
@@ -19,4 +23,4 @@
 
 
 
-# Notice [] , <> are not required in the commands Example: ![Test](https://tea.wheres-my-ta.co/gZy15.png)
+# Notice You'r servers prefix may not be `k!` ALSO  [] , <> are not required in the commands Example: ![Test](https://tea.wheres-my-ta.co/gZy15.png)
