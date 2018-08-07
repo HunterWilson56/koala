@@ -1,7 +1,7 @@
 # Welcome To Koala 
-#Kick-Starter!
+# Kick-Starter!
 
-##What Is Koala?
+## What Is Koala?
 -Koala is an project that was started in June By Tea Cup#9999 & Sup3rFi3r, since then Sup3rFi3r Has left us and SxR#3550 Joined!!
 
 # What Does Koala Do?
