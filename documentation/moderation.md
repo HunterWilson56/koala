@@ -23,4 +23,5 @@
 
 
 
-# Notice You'r servers prefix may not be `k!` ALSO  [] , <> are not required in the commands Example: ![Test](https://tea.wheres-my-ta.co/gZy15.png)
+# Notice ]
+- You'r servers prefix may not be `k!` ALSO  [] , <> are not required in the commands Example: ![Test](https://tea.wheres-my-ta.co/gZy15.png)
