@@ -11,6 +11,11 @@
 
 - Got that person that got in trouble? Then kick em' ```k!kick [@user] [reason for kick]```
 
+- Wanna warn someone? IF YOU SAID YES, then do ```k!warn [@user] [reason]```
+
+- Were you warned? and you wanna see you'r warnings? then do ```k!warnings [@user]```
+
+- You want to clear someone's warnings? then do ```k!clearwarnings [@user]```
 
 
 
@@ -23,5 +28,5 @@
 
 
 
-# Notice ]
+# Notice 
 - You'r servers prefix may not be `k!` ALSO  [] , <> are not required in the commands Example: ![Test](https://tea.wheres-my-ta.co/gZy15.png)
